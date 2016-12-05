@@ -15,7 +15,6 @@ namespace WatchForm
         private const string Uuid = "{7A51FDC2-FDDF-4c9b-AFFC-98BCD91BF93B}";
         private readonly string _myPin;
         private BluetoothListener _blueListener;
-        private BluetoothHandler _bluetoothHandler;
         private BluetoothClient _client;
         private bool _deflating;
         private int _diastolic;
